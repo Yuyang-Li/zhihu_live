@@ -40,3 +40,4 @@ data cleaning and easy visualization
 - 关于编码：开头的import sys...一串代码的改进方案是？
 - 多元回归分析要怎么弄？
 - 正在学着用jupyter_(:зゝ∠)_
+- 可视化和统计分析数据太多了反而不知道怎么选择和使用
