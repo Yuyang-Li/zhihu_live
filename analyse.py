@@ -36,7 +36,7 @@ def regression_analysis(df):
     print df.corr()
 
 
-def regression_analysis(df,x,y):
+def jointplot(df,x,y):
     df1 = df.loc[:,[x,y]]
     df1 = df1.dropna()
     sns.jointplot(x,y,df1,kind='reg')
