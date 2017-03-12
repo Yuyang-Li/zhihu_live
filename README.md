@@ -16,6 +16,7 @@ data cleaning and easy visualization
 - 异常值：将0值改为nan
 - 将费用中的数字提取出来
 - 提取了介绍的数字（可能与关注人数有关）
+
 ### 数据可视化
 - 备注：这部分的描述可以等到表达成Jupyter之后比较方便？
 - 直方图
