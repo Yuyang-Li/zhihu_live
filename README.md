@@ -39,3 +39,4 @@ data cleaning and easy visualization
 - 想打标签，需要get到列名…这个不会
 - 关于编码：开头的import sys...一串代码的改进方案是？
 - 多元回归分析要怎么弄？
+- 其实还不太会用jupyter_(:зゝ∠)_
