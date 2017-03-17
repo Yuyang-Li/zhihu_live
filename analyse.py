@@ -28,8 +28,8 @@ def describe_data():
 
 # Visualization
 # box plots(???)
-def box_plot(df1,df2,a):
-    plt.show(sns.boxplot(df1[a],df2[a],width=0.5))
+def box_plot(df,a):
+    plt.show(sns.boxplot(df[a],width=0.5))
 
 # regression analysis
 def regression_analysis(df):
@@ -43,8 +43,8 @@ def jointplot(df,x,y):
     plt.show()
 
 def histogram(df,a):
+    df_a = df[a].dropna()
+    print df_a
     plt.figure()
-    sns.distplot(df[a],bins=100,rug=True)
+    sns.distplot(df_a,bins=100,rug=True)
     plt.show()
-
-histogram(df_end,'费用')
