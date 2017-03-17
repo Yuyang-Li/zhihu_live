@@ -11,6 +11,7 @@ data cleaning and easy visualization
 - ongoing:清洗后数据
 - des_ongo:数据描述
 - all:合并数据
+- result_zhihu_live.ipynb：Jupyter notebook输出的结果描述
 ## 处理过程
 ### 数据清洗
 - 异常值：将0值改为nan
